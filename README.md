@@ -1,1 +1,3 @@
-# IPYNBrenderer python package
+# Example Project template
+
+## Steps to run the project for the user
