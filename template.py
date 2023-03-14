@@ -18,18 +18,19 @@ logging.info(f"Creating project by name: {project_name}")
 
 # list of files:
 list_of_files = [
-    ".github/workflows/.gitkeep", # this is a dummy file that is cerated to keep the structure intact
+    # USE THE FILE STRUCTURE BASED ON THE NEED OF THE PROJECT
+    # ".github/workflows/.gitkeep", # this is a dummy file that is cerated to keep the structure intact
     f"src/{project_name}/__init__.py", # this will let me know that this is project
-    f"tests/__init__.py", # these are for testing the program with unit test and intigration test
-    f"tests/unit/__init__.py",
-    f"tests/integration/__init__.py",
-    "init_setup.sh", # it will allow to do the basic environment setup
-    "requirements.txt", # it will import all the required files
-    "requirements_dev.txt", # this is to keep the requirements for testing such as pytest and others
-    "setup.py",
-    "pyproject.toml",
-    "setup.cfg",
-    "tox.ini"
+    # f"tests/__init__.py", # these are for testing the program with unit test and intigration test
+    # f"tests/unit/__init__.py",
+    # f"tests/integration/__init__.py",
+    # "init_setup.sh", # it will allow to do the basic environment setup
+    # "requirements.txt", # it will import all the required files
+    # "requirements_dev.txt", # this is to keep the requirements for testing such as pytest and others
+    # "setup.py",
+    # "pyproject.toml",
+    # "setup.cfg",
+    # "tox.ini"
 ]
 
 for filepath in list_of_files:
